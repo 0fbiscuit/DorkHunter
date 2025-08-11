@@ -38,5 +38,8 @@ DorkHunter is a lightweight Windows Forms application designed to streamline and
 
 **3. SETUP:**  
 <img width="1073" height="500" alt="image" src="https://github.com/user-attachments/assets/16d6eb09-bcc1-4f7c-ba77-8fb75bd02461" />  
-And install as usual!
+And setup as usual!
+
+# Credits
+- **This Application is developed by me - ([The Quan Dao](https://github.com/0fbiscuit)).**
 

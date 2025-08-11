@@ -6,7 +6,7 @@ DorkHunter is a lightweight Windows Forms application designed to streamline and
 
 
 # Features and Functionality
-- One-Click Advanced Queries: With over 60 dedicated buttons, each triggers a specific search query targeting different types of information, such as:
+- One-Click Advanced Queries: With 60 dedicated buttons, each triggers a specific search query targeting different types of information, such as:
 - Searching for exposed Amazon S3 buckets, DigitalOcean Spaces, and other cloud storage endpoints.
 - Locating configuration files (config, .git/config, .svn/entries).
 - Finding backup files and database dumps (.bak, .sql, .mdb).

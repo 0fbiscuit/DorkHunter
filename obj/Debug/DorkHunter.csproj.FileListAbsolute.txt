@@ -1,0 +1,15 @@
+D:\DorkHunter\DorkHunter\bin\Debug\DorkHunter.exe.config
+D:\DorkHunter\DorkHunter\bin\Debug\DorkHunter.exe
+D:\DorkHunter\DorkHunter\bin\Debug\DorkHunter.pdb
+D:\DorkHunter\DorkHunter\obj\Debug\DorkHunter.csproj.AssemblyReference.cache
+D:\DorkHunter\DorkHunter\obj\Debug\DorkHunter.DorkHunter.resources
+D:\DorkHunter\DorkHunter\obj\Debug\DorkHunter.Properties.Resources.resources
+D:\DorkHunter\DorkHunter\obj\Debug\DorkHunter.csproj.GenerateResource.cache
+D:\DorkHunter\DorkHunter\obj\Debug\DorkHunter.csproj.CoreCompileInputs.cache
+D:\DorkHunter\DorkHunter\obj\Debug\DorkHunter.exe
+D:\DorkHunter\DorkHunter\obj\Debug\DorkHunter.pdb
+D:\DorkHunter\DorkHunter\obj\Debug\DorkHunter.exe.config
+D:\DorkHunter\DorkHunter\bin\Debug\DorkHunter.exe.manifest
+D:\DorkHunter\DorkHunter\bin\Debug\DorkHunter.application
+D:\DorkHunter\DorkHunter\obj\Debug\DorkHunter.exe.manifest
+D:\DorkHunter\DorkHunter\obj\Debug\DorkHunter.application

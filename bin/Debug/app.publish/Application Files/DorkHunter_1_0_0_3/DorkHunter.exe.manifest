@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DorkHunter.exe" version="1.0.0.3" publicKeyToken="7998f3a03effa8de" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DorkHunter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DorkHunter.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DorkHunter.exe" size="47088">
+      <assemblyIdentity name="DorkHunter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KpKvbU9bFRR8rp7Cusw+cvGZ8XE4ZGGOOo0KffNcsi8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DorkHunter.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-UC0K1UB\biscuit" issuerKeyHash="efc43fe0de369630673a9144396cee7dd0e14a4d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HAYe/4uGz+XzYMBHdR4b+XWD9dOvw6cuEnkklnL6KUQ=</DigestValue></Reference></SignedInfo><SignatureValue>YR+/TJ6UjRr4h1rEuAtYtcNOcgNIufyuKWjqmUuk3695O3HnkpmgGKtGf0jz6TKhkGs0hAmS4q2X5qkgfhyJS8wMi7Fzb45l6BP6+RNKtC5pAV+1eRrgrh6g+lX5PCWkeoWOGak76eKEy5FZW3isIWPtA5ZsJvkIDVbM/a7jhxk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uCH+X6KBMdBvRpVMOArXiZMT6WdBrE9KSfFXLSTqx7S24+JiLxsFxojeIhAAbW+AMZFbpnp7IFiwM+gc9xRuQAaXqqEY86jmmQZFcy+XKeUB+JmQj77U5vyCmXikahFvYm/1JcD+2JhvEn/qPzGp6Hdtq96CURGOtnMa3lF2Ju0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4429fa72962479122ea7c3afd3f58375f91b1e7547c060f3e5cf868bff1e061c" Description="" Url=""><as:assemblyIdentity name="DorkHunter.exe" version="1.0.0.3" publicKeyToken="7998f3a03effa8de" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-UC0K1UB\biscuit</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MiQQHGyZXstwOoZSbVpcho+RM76uF6gt0SFkd8dGQx8=</DigestValue></Reference></SignedInfo><SignatureValue>rPPvBkjBebXw2cbXkFjQ2qLxDC5SAZspMxlBUCny5OcMvjqpYURj2Cxbs1ONtu2wmrT8/KvwXJ/VQW3m9uk7TeeH+ATb6N7eJbCmakmZvggnxmFXehj/dIMUWKvyvLxOtN1/E3fPieFZHEYF8DHBhdoIBtNnD5zfgrEC4LZgXTI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uCH+X6KBMdBvRpVMOArXiZMT6WdBrE9KSfFXLSTqx7S24+JiLxsFxojeIhAAbW+AMZFbpnp7IFiwM+gc9xRuQAaXqqEY86jmmQZFcy+XKeUB+JmQj77U5vyCmXikahFvYm/1JcD+2JhvEn/qPzGp6Hdtq96CURGOtnMa3lF2Ju0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQbenTamkgPqNBNqBwKkZFDTANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtAFUAQwAwAEsAMQBVAEIAXABiAGkAcwBjAHUAaQB0MB4XDTI1MDgxMTEwMDgwN1oXDTI2MDgxMTE2MDgwN1owOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQBVAEMAMABLADEAVQBCAFwAYgBpAHMAYwB1AGkAdDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuCH+X6KBMdBvRpVMOArXiZMT6WdBrE9KSfFXLSTqx7S24+JiLxsFxojeIhAAbW+AMZFbpnp7IFiwM+gc9xRuQAaXqqEY86jmmQZFcy+XKeUB+JmQj77U5vyCmXikahFvYm/1JcD+2JhvEn/qPzGp6Hdtq96CURGOtnMa3lF2Ju0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBUUq5tly+9Cg6mFLF0GytsVkvVSGZoGc0IBXjebHKbqB2u74hT3djuENm12+mXWhCycs9QSiyLbZ3RiAiqelnXLxSvhzYL+nT+RZTKp8AqiuEqMq+QfO6sB68eiz+MIo9XkVuRikUJNGL0y3/Y3oYi9pvldRZxqYjWbGs+S9TOQQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

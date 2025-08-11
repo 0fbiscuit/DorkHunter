@@ -27,7 +27,8 @@ DorkHunter is a lightweight Windows Forms application designed to streamline and
 
 **Step 1:** Download file `*.rar` https://github.com/0fbiscuit/DorkHunter/blob/main/DorkHunter/all_in_one_setup.rar.  
 **Step 2:** Use https://www.virustotal.com/ to check virus... but **DAMN** no virus in this sh!t, trust me!.  
-**Step 3:** Extract and run file `setup.exe`. I use .NET 4 so that I can not merge those files into one `*.exe` file.  
+**Step 3:** Extract and run file `setup.exe` (I use .NET 4 so that I can not merge those files into one `*.exe` file).  
+**Step 4:** Open app, enter target domain and click on any buttons in the tool to grab the information.
 
 # IMPORTANT
 **1. NO VIRUS:**  
